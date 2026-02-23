@@ -111,8 +111,8 @@
                         &kp LSHFT &kp SPACE &kp LCTRL             &kp LALT &kp TAB &kp APOS
             >;
         };
-        Game+_layer {
-            display-name = "Game+ Layer";
+        Game_plus_layer {
+            display-name = "Game plus Layer";
 // 
 //    | Pinky | Ring  | Middle    | Index   | Inner | screen |                       | Inner | Index   | Middle    | Ring  | Pinky |
 //    | ----- | ----- | --------- | ------- | ----- | ------ |                       | ----- | ------- | --------- | ----- | ----- |
@@ -130,4 +130,5 @@
                                         &kp LALT &kp TAB &kp APOS             &trans &trans &trans 
             >;
         };
+    };
 };
