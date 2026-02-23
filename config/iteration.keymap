@@ -1,18 +1,133 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/outputs.h>
 
 / {
-    keymap {
-        compatible = "zmk,keymap";
-
-        default_layer {
-            display-name = "Base";
-            bindings = <
-                &kp A &kp B &kp C &kp D &kp E &kp F &kp G &kp H &kp I &kp J
-                &kp K &kp L &kp M &kp N &kp O &kp P &kp Q &kp R &kp S &kp T &kp U
-                &kp V &kp W &kp X &kp Y &kp Z &kp A &kp B &kp C &kp D &kp E &kp F
-                &kp G &kp H &kp I &kp J &kp K &kp L
-            >;
+    
+    combos {
+        compatible = "zmk,combos";
+        combo_togg_game {
+            timeout-ms = <50>;
+            key-positions = <35 36 37>;
+            bindings = <&tog 4>;
+            layers = <0 4>;
         };
     };
+    keymap {
+        compatible = "zmk,keymap";
+        Default_layer {
+            display-name = "Default_layer";
+// 
+//    | Pinky | Ring  | Middle    | Index   | Inner | screen |                                    | Inner | Index   | Middle    | Ring  | Pinky   |
+//    | ----- | ----- | --------- | ------- | ----- | ------ |                                    | ----- | ------- | --------- | ----- | ------- |
+//    | q     | w     | e         | r       | t     |        |                                    | y     | u       | i         | o     | p       |
+//    | a/gui | s/alt | d/control | f/shift | g     | copy   |                                    | h     | j/shift | k/control | l/alt | "/"/gui |
+//    | z     | x     | c         | v       | b     | paste  |                                    | n     | m       | ,/?       | ./!   | :/;     |
+//                 | Near            | Middle          | Far |                     | Far          | Middle    | Near       |
+//                 | Esc/Media layer | Space/Num layer | Tab/command |             | enter/tekens | Backspace | Del/magic  |
+
+
+            bindings = <
+         &kp Q      &kp W      &kp E       &kp R       &kp T                                  &kp Y &kp U       &kp I           &kp O           &kp P                              
+         &mt LGUI A &mt LALT S &mt LCTRL D &mt LSHFT F &kp G &kp LC(C)                        &kp H &mt LSHFT J &mt LCTRL K     &mt LALT L      &mt LGUI SLASH              
+         &kp Z      &kp X      &kp C       &kp V       &kp B &kp LC(V)                        &kp N &kp M       &mt COMMA QMARK &mt PERIOD EXCL &mt COLON SEMI
+                                           &lt 3 ESC   &lt 1 SPACE &mt LS(LC(LA(F23))) TAB             &lt 2 ENTER  &kp BSPC &mt LS(LC(LA(F22))) DEL
+            >;
+        };
+        Number_nav_layer {
+            display-name = "Number_layer";
+// 
+//    | Pinky | Ring  | Middle    | Index   | Inner | screen |                                  | Inner  | Index   | Middle  | Ring  | Pinky |
+//    | ----- | ----- | --------- | ------- | ----- | ------ |                                  | ------ | ------- | ------- | ----- | ----- |
+//    | +     | 1     | 2         | 3       | *     |        |                                  | cut    | left    | up      | down  | right |
+//    | -/gui | 4/alt | 5/control | 6/shift | .     | undo   |                                  | pgup   | shift   | control | alt   | gui   |
+//    | =     | 7     | 8         | 9       | ^     | redo   |                                  | pgdown | C_lock  | C_word  |prtscrn| _     |
+//                 | Near            | Middle          | Far       |             | Far          | Middle    | Near      |
+//                 | Esc/Media layer | Space/Num layer | Tab/magic |             | enter/tekens | Backspace | Del/magic |
+
+
+            bindings = <
+         &kp PLUS       &kp N1      &kp N2       &kp N3       &kp STAR                                     &kp LC(X) &kp LEFT   &kp UP     &kp DOWN  &kp RIGHT                              
+         &mt LGUI MINUS &mt LALT N4 &mt LCTRL N5 &mt LSHFT N6 &kp PERIOD  &kp LC(Z)                        &kp PG_UP &kp LSHFT  &kp LCTRL  &kp LALT  &kp LGUI              
+         &kp EQUAL      &kp N7      &kp N8       &kp N9       &kp CARET   &kp LC(LS(Z))                    &kp PG_DN &kp CAPS   &caps_word &kp PSCRN &kp UNDERSCORE
+                                                        &trans      &trans      &trans                  &trans      &trans      &trans
+            >;
+        };
+        tekens_layer {
+            display-name = "tekens_layer";
+// 
+//    | Pinky | Ring  | Middle | Index   | Inner | screen |                                   | Inner | Index   | Middle    | Ring  | Pinky   |
+//    | ----- | ----- | ------ | ------- | ----- | ------ |                                   | ----- | ------- | --------- | ----- | ------- |
+//    | <     | [     | (      | {       | '     |        |                                   |       | f1      | f2        | f3    | f4      |
+//    | >     | ]     | )      | }       | "     | |      |                                   | ~     | f5      | f6        | f7    | f8      |
+//    | @     | #     | $      | %       | `     | \      |                                   |       | f9      | f10       | f11   | f12     |
+//                 | Near            | Middle          | Far         |         | Far          | Middle    | Near       |
+//                 | Esc/Media layer | Space/Num layer | Tab/command |         | enter/tekens | Backspace | Del/magic  |
+
+
+            bindings = <
+         &kp LT  &kp LBKT   &kp LPAR &kp LBRC  &kp APOS                                   &none     &kp F1  &kp F2  &kp F3  &kp F4                              
+         &kp GT  &kp RBKT   &kp RPAR &kp RBRC  &kp DQT   &kp PIPE                         &kp TILDE &kp F5  &kp F6  &kp F7  &kp F8              
+         &kp AT  &kp HASH   &kp DLLR &kp PRCNT &kp GRAVE &kp BSLH                         &none     &kp F9  &kp F10 &kp F11 &kp F12
+                                           &trans      &trans      &trans          &trans      &trans      &trans
+            >;
+        };
+        Media_layer {
+            display-name = "Media_layer";
+// 
+//    | Pinky | Ring        | Middle     | Index     | Inner | screen |                                       | Inner      | Index      | Middle | Ring         | Pinky  |
+//    | ----- | -----       | ------     | -------   | ----- | ------ |                                       | ---------- | ---------- | ------ | ------------ | ------ |
+//    |       | volume down | mute       | volume up |       |        |                                       | Bt1        | Bt2        | Bt3    | Bt4          | Bt5    |
+//    |       | previous    | Play/pause | Next      |       |        |                                       | ZMK unlock | bt clr all | bt clr | Outpt toggle |        |
+//    |       |             |            |           |       |        |                                       | Soft_off   |            |        |              |        |
+//                                | Near            | Middle          | Far          |         | Far          | Middle    | Near       |
+//                                | Esc/Media layer | Space/Num layer | Tab//command |         | enter/tekens | Backspace | Del/magic  |
+
+
+            bindings = <
+         &none  &kp C_VOL_DN &kp C_MUTE &kp C_VOL_UP &none                                      &bt BT_SEL 0    &bt BT_SEL 1   &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4                               
+         &none  &kp C_PREV   &kp C_PP   &kp C_NEXT   &none     &none                            &studio_unlock  &bt BT_CLR_ALL &bt BT_CLR   &out OUT_TOG &none              
+         &none  &none        &none      &none        &none     &none                            &soft_off       &none          &none        &none        &none
+                                           &trans      &trans      &trans          &trans      &trans      &trans
+            >;
+        };
+        Game_layer {
+            display-name = "Game Layer";
+// 
+//    | Pinky | Ring  | Middle    | Index   | Inner | screen |                       | Inner | Index   | Middle    | Ring  | Pinky |
+//    | ----- | ----- | --------- | ------- | ----- | ------ |                       | ----- | ------- | --------- | ----- | ----- |
+//    | q     | w     | e         | r       | t     |        |                       | y     | u       | i         | o     | p     |
+//    | a     | s     | d         | f       | g     | h      |                       | j     | k       | l         | [     | ]     |
+//    | z     | x     | c         | v       | b     | Game+  |                       | n     | m       | ;         | :     | .     |
+//                                      | Near  | Middle | Far  |               | Far | Middle | Near |
+//                                      | shift |  Space | ctrl |               | alt | tab    | '    |
+
+
+            bindings = <
+         &kp Q &kp W &kp E &kp R &kp T                                 &kp Y &kp U &kp I    &kp O      &kp P                              
+         &kp A &kp S &kp D &kp F &kp G &kp H                           &kp J &kp K &kp L    &kp LBKT   &kp RBKT             
+         &kp Z &kp X &kp C &kp V &kp B &sl 5                           &kp N &kp M &kp SEMI &kp COLON  &kp PERIOD
+                        &kp LSHFT &kp SPACE &kp LCTRL             &kp LALT &kp TAB &kp APOS
+            >;
+        };
+        Game+_layer {
+            display-name = "Game+ Layer";
+// 
+//    | Pinky | Ring  | Middle    | Index   | Inner | screen |                       | Inner | Index   | Middle    | Ring  | Pinky |
+//    | ----- | ----- | --------- | ------- | ----- | ------ |                       | ----- | ------- | --------- | ----- | ----- |
+//    | y     | u     | i         | o       | p     |        |                       |       |         |           |       |       |
+//    | j     | k     | l         | [       | ]     | esc    |                       |       |         |           |       |       |
+//    | n     | m     | ;         | :       | .     | enter  |                       |       |         |           |       |       |
+//                                      | Near | Middle | Far |               | Far | Middle | Near |
+//                                      | alt  | tab    | '   |               |     |        |      |
+
+
+            bindings = <
+         &kp Y &kp U &kp I    &kp O     &kp P                                      &trans &trans &trans &trans &trans                              
+         &kp J &kp K &kp L    &kp F     &kp G      &kp ESC                         &trans &trans &trans &trans &trans              
+         &kp N &kp M &kp SEMI &kp COLON &kp PERIOD &kp ENTER                       &trans &trans &trans &trans &trans 
+                                        &kp LALT &kp TAB &kp APOS             &trans &trans &trans 
+            >;
+        };
 };
