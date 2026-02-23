@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1061.42 559.26">
+  <style>
+    .key-bg { fill: #f5f5f5; stroke: #d4d4d4; stroke-width: 1; }
+    .key-index { fill: #171717; font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; font-weight: 700; text-anchor: middle; dominant-baseline: central; }
+    .key-part { font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; text-anchor: middle; dominant-baseline: central; }
+    @media (prefers-color-scheme: dark) {
+      .key-bg { fill: #2a2a2a; stroke: #404040; }
+      .key-index { fill: #e5e5e5; }
+    }
+    .key-bg.part-0 { stroke: #f59e0b; }
+    .key-part.part-0 { fill: #f59e0b; }
+    .key-bg.part-1 { stroke: #14b8a6; }
+    .key-part.part-1 { fill: #14b8a6; }
+  </style>
+  <g>
+    <path class="key-bg part-0" d="M 77.63,44.17 L 133.65,59.18 Q 137.51,60.22 136.48,64.08 L 121.47,120.10 Q 120.43,123.97 116.57,122.93 L 60.54,107.92 Q 56.68,106.88 57.71,103.02 L 72.73,47.00 Q 73.76,43.13 77.63,44.17 Z" />
+    <path class="key-bg part-0" d="M 176.75,23.93 L 231.25,43.77 Q 235.01,45.14 233.64,48.90 L 213.81,103.40 Q 212.44,107.16 208.68,105.79 L 154.18,85.95 Q 150.42,84.58 151.79,80.82 L 171.62,26.32 Q 172.99,22.56 176.75,23.93 Z" />
+    <path class="key-bg part-0" d="M 249.20,29.95 L 303.70,49.79 Q 307.46,51.16 306.09,54.92 L 286.26,109.42 Q 284.89,113.18 281.13,111.81 L 226.63,91.97 Q 222.87,90.60 224.24,86.84 L 244.07,32.34 Q 245.44,28.58 249.20,29.95 Z" />
+    <path class="key-bg part-0" d="M 307.02,78.46 L 361.52,98.30 Q 365.28,99.67 363.91,103.43 L 344.08,157.93 Q 342.71,161.69 338.95,160.32 L 284.45,140.48 Q 280.69,139.11 282.06,135.35 L 301.89,80.85 Q 303.26,77.09 307.02,78.46 Z" />
+    <path class="key-bg part-0" d="M 370.09,111.57 L 424.59,131.41 Q 428.35,132.78 426.98,136.54 L 407.15,191.04 Q 405.78,194.80 402.02,193.43 L 347.52,173.59 Q 343.76,172.22 345.13,168.46 L 364.96,113.96 Q 366.33,110.20 370.09,111.57 Z" />
+    <path class="key-bg part-1" d="M 636.83,131.41 L 691.33,111.57 Q 695.09,110.20 696.46,113.96 L 716.29,168.46 Q 717.66,172.22 713.90,173.59 L 659.40,193.43 Q 655.64,194.80 654.27,191.04 L 634.44,136.54 Q 633.07,132.78 636.83,131.41 Z" />
+    <path class="key-bg part-1" d="M 699.97,98.30 L 754.47,78.46 Q 758.23,77.09 759.60,80.85 L 779.43,135.35 Q 780.80,139.11 777.04,140.48 L 722.54,160.32 Q 718.78,161.69 717.41,157.93 L 697.58,103.43 Q 696.21,99.67 699.97,98.30 Z" />
+    <path class="key-bg part-1" d="M 757.72,49.79 L 812.22,29.95 Q 815.98,28.58 817.35,32.34 L 837.18,86.84 Q 838.55,90.60 834.79,91.97 L 780.29,111.81 Q 776.53,113.18 775.16,109.42 L 755.33,54.92 Q 753.96,51.16 757.72,49.79 Z" />
+    <path class="key-bg part-1" d="M 830.17,43.77 L 884.67,23.93 Q 888.43,22.56 889.80,26.32 L 909.63,80.82 Q 911.00,84.58 907.24,85.95 L 852.74,105.79 Q 848.98,107.16 847.61,103.40 L 827.78,48.90 Q 826.41,45.14 830.17,43.77 Z" />
+    <path class="key-bg part-1" d="M 927.77,59.18 L 983.80,44.17 Q 987.66,43.13 988.70,47.00 L 1003.71,103.02 Q 1004.74,106.88 1000.88,107.92 L 944.86,122.93 Q 940.99,123.97 939.96,120.10 L 924.94,64.08 Q 923.91,60.22 927.77,59.18 Z" />
+    <path class="key-bg part-0" d="M 60.55,111.79 L 116.57,126.80 Q 120.43,127.84 119.40,131.70 L 104.39,187.72 Q 103.35,191.59 99.49,190.55 L 43.46,175.54 Q 39.60,174.50 40.63,170.64 L 55.65,114.62 Q 56.68,110.75 60.55,111.79 Z" />
+    <path class="key-bg part-0" d="M 154.14,89.73 L 208.64,109.57 Q 212.40,110.94 211.03,114.70 L 191.20,169.20 Q 189.83,172.96 186.07,171.59 L 131.57,151.75 Q 127.81,150.38 129.18,146.62 L 149.01,92.12 Q 150.38,88.36 154.14,89.73 Z" />
+    <path class="key-bg part-0" d="M 226.59,95.68 L 281.09,115.52 Q 284.85,116.89 283.48,120.65 L 263.65,175.15 Q 262.28,178.91 258.52,177.54 L 204.02,157.70 Q 200.26,156.33 201.63,152.57 L 221.46,98.07 Q 222.83,94.31 226.59,95.68 Z" />
+    <path class="key-bg part-0" d="M 284.41,144.26 L 338.91,164.10 Q 342.67,165.47 341.30,169.23 L 321.47,223.73 Q 320.10,227.49 316.34,226.12 L 261.84,206.28 Q 258.08,204.91 259.45,201.15 L 279.28,146.65 Q 280.65,142.89 284.41,144.26 Z" />
+    <path class="key-bg part-0" d="M 347.48,177.37 L 401.98,197.21 Q 405.74,198.58 404.37,202.34 L 384.54,256.84 Q 383.17,260.60 379.41,259.23 L 324.91,239.39 Q 321.15,238.02 322.52,234.26 L 342.35,179.76 Q 343.72,176.00 347.48,177.37 Z" />
+    <path class="key-bg part-0" d="M 422.59,175.62 L 477.09,195.46 Q 480.85,196.83 479.48,200.59 L 459.65,255.09 Q 458.28,258.85 454.52,257.48 L 400.02,237.64 Q 396.26,236.27 397.63,232.51 L 417.46,178.01 Q 418.83,174.25 422.59,175.62 Z" />
+    <path class="key-bg part-1" d="M 659.44,197.21 L 713.94,177.37 Q 717.70,176.00 719.07,179.76 L 738.90,234.26 Q 740.27,238.02 736.51,239.39 L 682.01,259.23 Q 678.25,260.60 676.88,256.84 L 657.05,202.34 Q 655.68,198.58 659.44,197.21 Z" />
+    <path class="key-bg part-1" d="M 722.58,164.10 L 777.08,144.26 Q 780.84,142.89 782.21,146.65 L 802.04,201.15 Q 803.41,204.91 799.65,206.28 L 745.15,226.12 Q 741.39,227.49 740.02,223.73 L 720.19,169.23 Q 718.82,165.47 722.58,164.10 Z" />
+    <path class="key-bg part-1" d="M 780.33,115.52 L 834.83,95.68 Q 838.59,94.31 839.96,98.07 L 859.79,152.57 Q 861.16,156.33 857.40,157.70 L 802.90,177.54 Q 799.14,178.91 797.77,175.15 L 777.94,120.65 Q 776.57,116.89 780.33,115.52 Z" />
+    <path class="key-bg part-1" d="M 852.78,109.57 L 907.28,89.73 Q 911.04,88.36 912.41,92.12 L 932.24,146.62 Q 933.61,150.38 929.85,151.75 L 875.35,171.59 Q 871.59,172.96 870.22,169.20 L 850.39,114.70 Q 849.02,110.94 852.78,109.57 Z" />
+    <path class="key-bg part-1" d="M 944.92,126.80 L 1000.95,111.79 Q 1004.81,110.75 1005.85,114.62 L 1020.86,170.64 Q 1021.89,174.50 1018.03,175.54 L 962.01,190.55 Q 958.14,191.59 957.11,187.72 L 942.09,131.70 Q 941.06,127.84 944.92,126.80 Z" />
+    <path class="key-bg part-0" d="M 43.40,179.41 L 99.42,194.42 Q 103.28,195.46 102.25,199.32 L 87.24,255.34 Q 86.20,259.21 82.34,258.17 L 26.31,243.16 Q 22.45,242.12 23.48,238.26 L 38.50,182.24 Q 39.53,178.37 43.40,179.41 Z" />
+    <path class="key-bg part-0" d="M 131.53,155.46 L 186.03,175.30 Q 189.79,176.67 188.42,180.43 L 168.59,234.93 Q 167.22,238.69 163.46,237.32 L 108.96,217.48 Q 105.20,216.11 106.57,212.35 L 126.40,157.85 Q 127.77,154.09 131.53,155.46 Z" />
+    <path class="key-bg part-0" d="M 203.98,161.48 L 258.48,181.32 Q 262.24,182.69 260.87,186.45 L 241.04,240.95 Q 239.67,244.71 235.91,243.34 L 181.41,223.50 Q 177.65,222.13 179.02,218.37 L 198.85,163.87 Q 200.22,160.11 203.98,161.48 Z" />
+    <path class="key-bg part-0" d="M 261.80,210.06 L 316.30,229.90 Q 320.06,231.27 318.69,235.03 L 298.86,289.53 Q 297.49,293.29 293.73,291.92 L 239.23,272.08 Q 235.47,270.71 236.84,266.95 L 256.67,212.45 Q 258.04,208.69 261.80,210.06 Z" />
+    <path class="key-bg part-0" d="M 324.87,243.10 L 379.37,262.94 Q 383.13,264.31 381.76,268.07 L 361.93,322.57 Q 360.56,326.33 356.80,324.96 L 302.30,305.12 Q 298.54,303.75 299.91,299.99 L 319.74,245.49 Q 321.11,241.73 324.87,243.10 Z" />
+    <path class="key-bg part-0" d="M 399.98,241.42 L 454.48,261.26 Q 458.24,262.63 456.87,266.39 L 437.04,320.89 Q 435.67,324.65 431.91,323.28 L 377.41,303.44 Q 373.65,302.07 375.02,298.31 L 394.85,243.81 Q 396.22,240.05 399.98,241.42 Z" />
+    <path class="key-bg part-1" d="M 682.05,262.94 L 736.55,243.10 Q 740.31,241.73 741.68,245.49 L 761.51,299.99 Q 762.88,303.75 759.12,305.12 L 704.62,324.96 Q 700.86,326.33 699.49,322.57 L 679.66,268.07 Q 678.29,264.31 682.05,262.94 Z" />
+    <path class="key-bg part-1" d="M 745.19,229.90 L 799.69,210.06 Q 803.45,208.69 804.82,212.45 L 824.65,266.95 Q 826.02,270.71 822.26,272.08 L 767.76,291.92 Q 764.00,293.29 762.63,289.53 L 742.80,235.03 Q 741.43,231.27 745.19,229.90 Z" />
+    <path class="key-bg part-1" d="M 802.94,181.32 L 857.44,161.48 Q 861.20,160.11 862.57,163.87 L 882.40,218.37 Q 883.77,222.13 880.01,223.50 L 825.51,243.34 Q 821.75,244.71 820.38,240.95 L 800.55,186.45 Q 799.18,182.69 802.94,181.32 Z" />
+    <path class="key-bg part-1" d="M 875.39,175.30 L 929.89,155.46 Q 933.65,154.09 935.02,157.85 L 954.85,212.35 Q 956.22,216.11 952.46,217.48 L 897.96,237.32 Q 894.20,238.69 892.83,234.93 L 873.00,180.43 Q 871.63,176.67 875.39,175.30 Z" />
+    <path class="key-bg part-1" d="M 962.00,194.42 L 1018.03,179.41 Q 1021.89,178.37 1022.93,182.24 L 1037.94,238.26 Q 1038.97,242.12 1035.11,243.16 L 979.09,258.17 Q 975.22,259.21 974.19,255.34 L 959.17,199.32 Q 958.14,195.46 962.00,194.42 Z" />
+    <path class="key-bg part-0" d="M 274.05,306.80 L 328.55,326.64 Q 332.31,328.01 330.94,331.77 L 311.11,386.27 Q 309.74,390.03 305.98,388.66 L 251.48,368.82 Q 247.72,367.45 249.09,363.69 L 268.92,309.19 Q 270.29,305.43 274.05,306.80 Z" />
+    <path class="key-bg part-0" d="M 325.69,401.97 L 368.80,363.16 Q 371.77,360.48 374.45,363.46 L 413.25,406.56 Q 415.93,409.53 412.96,412.21 L 369.86,451.02 Q 366.88,453.70 364.21,450.72 L 325.40,407.62 Q 322.72,404.65 325.69,401.97 Z" />
+    <path class="key-bg part-0" d="M 380.66,471.83 L 436.94,457.79 Q 440.82,456.83 441.79,460.71 L 455.82,516.99 Q 456.79,520.87 452.91,521.83 L 396.63,535.87 Q 392.75,536.83 391.78,532.95 L 377.75,476.67 Q 376.78,472.79 380.66,471.83 Z" />
+    <path class="key-bg part-1" d="M 624.48,457.79 L 680.76,471.83 Q 684.64,472.79 683.67,476.67 L 669.64,532.95 Q 668.67,536.83 664.79,535.87 L 608.51,521.83 Q 604.63,520.87 605.60,516.99 L 619.63,460.71 Q 620.60,456.83 624.48,457.79 Z" />
+    <path class="key-bg part-1" d="M 692.63,363.16 L 735.73,401.97 Q 738.70,404.65 736.02,407.62 L 697.22,450.72 Q 694.54,453.70 691.57,451.02 L 648.46,412.21 Q 645.49,409.53 648.17,406.56 L 686.98,363.46 Q 689.65,360.48 692.63,363.16 Z" />
+    <path class="key-bg part-1" d="M 732.94,326.64 L 787.44,306.80 Q 791.20,305.43 792.57,309.19 L 812.40,363.69 Q 813.77,367.45 810.01,368.82 L 755.51,388.66 Q 751.75,390.03 750.38,386.27 L 730.55,331.77 Q 729.18,328.01 732.94,326.64 Z" />
+  </g>
+  <g>
+    <text class="key-index" x="97.10" y="71.91" font-size="26" transform="rotate(15 97.10 83.55)">0</text>
+    <text class="key-part part-0" x="97.10" y="99.19" font-size="18" transform="rotate(15 97.10 83.55)">left</text>
+    <text class="key-index" x="192.72" y="53.22" font-size="26" transform="rotate(20 192.72 64.86)">1</text>
+    <text class="key-part part-0" x="192.72" y="80.50" font-size="18" transform="rotate(20 192.72 64.86)">left</text>
+    <text class="key-index" x="265.17" y="59.24" font-size="26" transform="rotate(20 265.17 70.88)">2</text>
+    <text class="key-part part-0" x="265.17" y="86.52" font-size="18" transform="rotate(20 265.17 70.88)">left</text>
+    <text class="key-index" x="322.99" y="107.75" font-size="26" transform="rotate(20 322.99 119.39)">3</text>
+    <text class="key-part part-0" x="322.99" y="135.03" font-size="18" transform="rotate(20 322.99 119.39)">left</text>
+    <text class="key-index" x="386.06" y="140.86" font-size="26" transform="rotate(20 386.06 152.50)">4</text>
+    <text class="key-part part-0" x="386.06" y="168.14" font-size="18" transform="rotate(20 386.06 152.50)">left</text>
+    <text class="key-index" x="675.37" y="140.86" font-size="26" transform="rotate(-20 675.37 152.50)">5</text>
+    <text class="key-part part-1" x="675.37" y="168.14" font-size="18" transform="rotate(-20 675.37 152.50)">right</text>
+    <text class="key-index" x="738.51" y="107.75" font-size="26" transform="rotate(-20 738.51 119.39)">6</text>
+    <text class="key-part part-1" x="738.51" y="135.03" font-size="18" transform="rotate(-20 738.51 119.39)">right</text>
+    <text class="key-index" x="796.26" y="59.24" font-size="26" transform="rotate(-20 796.26 70.88)">7</text>
+    <text class="key-part part-1" x="796.26" y="86.52" font-size="18" transform="rotate(-20 796.26 70.88)">right</text>
+    <text class="key-index" x="868.71" y="53.22" font-size="26" transform="rotate(-20 868.71 64.86)">8</text>
+    <text class="key-part part-1" x="868.71" y="80.50" font-size="18" transform="rotate(-20 868.71 64.86)">right</text>
+    <text class="key-index" x="964.33" y="71.91" font-size="26" transform="rotate(-15 964.33 83.55)">9</text>
+    <text class="key-part part-1" x="964.33" y="99.19" font-size="18" transform="rotate(-15 964.33 83.55)">right</text>
+    <text class="key-index" x="80.02" y="139.53" font-size="26" transform="rotate(15 80.02 151.17)">10</text>
+    <text class="key-part part-0" x="80.02" y="166.81" font-size="18" transform="rotate(15 80.02 151.17)">left</text>
+    <text class="key-index" x="170.11" y="119.02" font-size="26" transform="rotate(20 170.11 130.66)">11</text>
+    <text class="key-part part-0" x="170.11" y="146.30" font-size="18" transform="rotate(20 170.11 130.66)">left</text>
+    <text class="key-index" x="242.56" y="124.97" font-size="26" transform="rotate(20 242.56 136.61)">12</text>
+    <text class="key-part part-0" x="242.56" y="152.25" font-size="18" transform="rotate(20 242.56 136.61)">left</text>
+    <text class="key-index" x="300.38" y="173.55" font-size="26" transform="rotate(20 300.38 185.19)">13</text>
+    <text class="key-part part-0" x="300.38" y="200.83" font-size="18" transform="rotate(20 300.38 185.19)">left</text>
+    <text class="key-index" x="363.45" y="206.66" font-size="26" transform="rotate(20 363.45 218.30)">14</text>
+    <text class="key-part part-0" x="363.45" y="233.94" font-size="18" transform="rotate(20 363.45 218.30)">left</text>
+    <text class="key-index" x="438.56" y="204.91" font-size="26" transform="rotate(20 438.56 216.55)">15</text>
+    <text class="key-part part-0" x="438.56" y="232.19" font-size="18" transform="rotate(20 438.56 216.55)">left</text>
+    <text class="key-index" x="697.98" y="206.66" font-size="26" transform="rotate(-20 697.98 218.30)">16</text>
+    <text class="key-part part-1" x="697.98" y="233.94" font-size="18" transform="rotate(-20 697.98 218.30)">right</text>
+    <text class="key-index" x="761.12" y="173.55" font-size="26" transform="rotate(-20 761.12 185.19)">17</text>
+    <text class="key-part part-1" x="761.12" y="200.83" font-size="18" transform="rotate(-20 761.12 185.19)">right</text>
+    <text class="key-index" x="818.87" y="124.97" font-size="26" transform="rotate(-20 818.87 136.61)">18</text>
+    <text class="key-part part-1" x="818.87" y="152.25" font-size="18" transform="rotate(-20 818.87 136.61)">right</text>
+    <text class="key-index" x="891.32" y="119.02" font-size="26" transform="rotate(-20 891.32 130.66)">19</text>
+    <text class="key-part part-1" x="891.32" y="146.30" font-size="18" transform="rotate(-20 891.32 130.66)">right</text>
+    <text class="key-index" x="981.48" y="139.53" font-size="26" transform="rotate(-15 981.48 151.17)">20</text>
+    <text class="key-part part-1" x="981.48" y="166.81" font-size="18" transform="rotate(-15 981.48 151.17)">right</text>
+    <text class="key-index" x="62.87" y="207.15" font-size="26" transform="rotate(15 62.87 218.79)">21</text>
+    <text class="key-part part-0" x="62.87" y="234.43" font-size="18" transform="rotate(15 62.87 218.79)">left</text>
+    <text class="key-index" x="147.50" y="184.75" font-size="26" transform="rotate(20 147.50 196.39)">22</text>
+    <text class="key-part part-0" x="147.50" y="212.03" font-size="18" transform="rotate(20 147.50 196.39)">left</text>
+    <text class="key-index" x="219.95" y="190.77" font-size="26" transform="rotate(20 219.95 202.41)">23</text>
+    <text class="key-part part-0" x="219.95" y="218.05" font-size="18" transform="rotate(20 219.95 202.41)">left</text>
+    <text class="key-index" x="277.77" y="239.35" font-size="26" transform="rotate(20 277.77 250.99)">24</text>
+    <text class="key-part part-0" x="277.77" y="266.63" font-size="18" transform="rotate(20 277.77 250.99)">left</text>
+    <text class="key-index" x="340.84" y="272.39" font-size="26" transform="rotate(20 340.84 284.03)">25</text>
+    <text class="key-part part-0" x="340.84" y="299.67" font-size="18" transform="rotate(20 340.84 284.03)">left</text>
+    <text class="key-index" x="415.95" y="270.71" font-size="26" transform="rotate(20 415.95 282.35)">26</text>
+    <text class="key-part part-0" x="415.95" y="297.99" font-size="18" transform="rotate(20 415.95 282.35)">left</text>
+    <text class="key-index" x="720.59" y="272.39" font-size="26" transform="rotate(-20 720.59 284.03)">27</text>
+    <text class="key-part part-1" x="720.59" y="299.67" font-size="18" transform="rotate(-20 720.59 284.03)">right</text>
+    <text class="key-index" x="783.73" y="239.35" font-size="26" transform="rotate(-20 783.73 250.99)">28</text>
+    <text class="key-part part-1" x="783.73" y="266.63" font-size="18" transform="rotate(-20 783.73 250.99)">right</text>
+    <text class="key-index" x="841.48" y="190.77" font-size="26" transform="rotate(-20 841.48 202.41)">29</text>
+    <text class="key-part part-1" x="841.48" y="218.05" font-size="18" transform="rotate(-20 841.48 202.41)">right</text>
+    <text class="key-index" x="913.93" y="184.75" font-size="26" transform="rotate(-20 913.93 196.39)">30</text>
+    <text class="key-part part-1" x="913.93" y="212.03" font-size="18" transform="rotate(-20 913.93 196.39)">right</text>
+    <text class="key-index" x="998.56" y="207.15" font-size="26" transform="rotate(-15 998.56 218.79)">31</text>
+    <text class="key-part part-1" x="998.56" y="234.43" font-size="18" transform="rotate(-15 998.56 218.79)">right</text>
+    <text class="key-index" x="290.02" y="336.09" font-size="26" transform="rotate(20 290.02 347.73)">32</text>
+    <text class="key-part part-0" x="290.02" y="363.37" font-size="18" transform="rotate(20 290.02 347.73)">left</text>
+    <text class="key-index" x="369.33" y="395.45" font-size="26" transform="rotate(-42 369.33 407.09)">33</text>
+    <text class="key-part part-0" x="369.33" y="422.73" font-size="18" transform="rotate(-42 369.33 407.09)">left</text>
+    <text class="key-index" x="416.79" y="485.19" font-size="26" transform="rotate(-14 416.79 496.83)">34</text>
+    <text class="key-part part-0" x="416.79" y="512.47" font-size="18" transform="rotate(-14 416.79 496.83)">left</text>
+    <text class="key-index" x="644.64" y="485.19" font-size="26" transform="rotate(14 644.64 496.83)">35</text>
+    <text class="key-part part-1" x="644.64" y="512.47" font-size="18" transform="rotate(14 644.64 496.83)">right</text>
+    <text class="key-index" x="692.10" y="395.45" font-size="26" transform="rotate(42 692.10 407.09)">36</text>
+    <text class="key-part part-1" x="692.10" y="422.73" font-size="18" transform="rotate(42 692.10 407.09)">right</text>
+    <text class="key-index" x="771.48" y="336.09" font-size="26" transform="rotate(-20 771.48 347.73)">37</text>
+    <text class="key-part part-1" x="771.48" y="363.37" font-size="18" transform="rotate(-20 771.48 347.73)">right</text>
+  </g>
+</svg>

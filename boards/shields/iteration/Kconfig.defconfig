@@ -1,0 +1,36 @@
+if SHIELD_ITERATION_LEFT
+
+# Name must be less than 16 characters long!
+config ZMK_KEYBOARD_NAME
+    default "Iteration"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+config ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS
+  default 1
+
+config BT_MAX_CONN
+  default 6
+
+config BT_MAX_PAIRED
+  default 6
+
+endif
+
+if SHIELD_ITERATION_LEFT || SHIELD_ITERATION_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif
+
+# ---------------------
+# Kconfig for shield "iteration_right" with board "nice_nano_v2"
+# ---------------------
+if BOARD_NICE_NANO_V2 && SHIELD_ITERATION_RIGHT
+
+config SPI
+    default y
+
+endif
