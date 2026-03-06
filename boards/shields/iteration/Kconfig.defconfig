@@ -1,4 +1,4 @@
-if SHIELD_ITERATION_RIGHT
+if SHIELD_ITERATION_LEFT
 
 config ZMK_KEYBOARD_NAME
     default "Iteration"
