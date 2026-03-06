@@ -23,13 +23,9 @@ if SHIELD_ITERATION_LEFT || SHIELD_ITERATION_RIGHT
 config ZMK_SPLIT
     default y
 
-# Display alleen activeren voor de rechterkant om build errors op links te voorkomen
 if SHIELD_ITERATION_RIGHT
 
 config ZMK_DISPLAY
-    default y
-
-config ZMK_WIDGET_LAYER_STATUS
     default y
 
 config ZMK_WIDGET_BATTERY_STATUS
@@ -38,16 +34,10 @@ config ZMK_WIDGET_BATTERY_STATUS
 config ZMK_WIDGET_BATTERY_STATUS_SHOW_PERCENTAGE
     default y
 
-config ZMK_WIDGET_OUTPUT_STATUS
-    default y
-
 endif
 
 endif
 
-# ---------------------
-# Kconfig for shield "iteration_right" with board "nice_nano_v2"
-# ---------------------
 if BOARD_NICE_NANO_V2 && SHIELD_ITERATION_RIGHT
 
 config SPI
